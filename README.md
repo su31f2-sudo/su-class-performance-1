@@ -38,5 +38,4 @@ The form includes the following fields:
 
 ## 📸 Screenshot  
 
-```markdown
 ![Registration Form Screenshot](screenshot.png)
