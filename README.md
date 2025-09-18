@@ -1,41 +1,44 @@
-# 🌐 Registration Form – Class Performance Task  
+# 📚 Class Performance Task – 1  
 
-This project is a simple **Registration Form** created as part of a class performance task.  
-The form is designed with **HTML & CSS**, focusing on proper use of input types, form validation basics, and styling for a clean user interface.  
-
-## 🚀 Live Demo  
-🔗 [Click here to view live site](https://su-class-performance-1.vercel.app/)  
-
-## 📂 Repository  
-🔗 [GitHub Repository](https://github.com/su31f2-sudo/su-class-performance-1.git)  
+## 🧑‍🎓 Student Info  
+- **ID:** CSE2401031231  
+- **Section:** 31F2  
 
 ---
 
-## 📝 Features  
-The form includes the following fields:  
+## 🔗 Project Links  
+- **GitHub Repository:** [Click Here](https://github.com/su31f2-sudo/su-class-performance-1)  
+- **Live Demo:** [View Live](https://su-class-performance-1.vercel.app/)  
 
-- ✅ **First Name** – Text input  
-- ✅ **Last Name** – Text input  
-- ✅ **Email** – Email input (with validation)  
-- ✅ **Date of Birth** – Date input  
-- ✅ **Phone Number** – Number / Tel input  
-- ✅ **Password** – Password input (hidden characters)  
-- ✅ **Gender** – Radio buttons (Male / Female)  
-- ✅ **District Selection** – Dropdown (Dhaka, Narayanganj, Chattogram)  
-- ✅ **Terms & Conditions** – Checkbox for agreement  
-- ✅ **Register Button** – Submit form  
+---
+
+## 📝 Project Overview  
+This project is a **Registration Form** built with HTML and CSS.  
+It demonstrates the use of different input types, dropdowns, radio buttons, checkboxes, and styled submit button.  
+
+---
+
+## ✅ Features  
+- First Name, Last Name (Text inputs)  
+- Email (Email input with validation)  
+- Date of Birth (Date picker)  
+- Phone Number (Tel input)  
+- Password (Hidden input)  
+- Gender selection (Radio buttons: Male / Female)  
+- District selection (Dropdown: Dhaka, Narayanganj, Chattogram)  
+- Terms & Conditions agreement (Checkbox)  
+- Register button (Form submission)  
 
 ---
 
 ## 🎨 Styling  
-- Clean and modern **CSS design**  
-- Centered form layout  
-- Input focus effects  
-- Button hover styling  
-- User-friendly and easy-to-read font  
+- Clean and centered layout  
+- Input focus and hover effects  
+- Button styling for better UX  
+- Simple, user-friendly design  
 
 ---
 
 ## 📸 Screenshot  
 
-![Registration Form Screenshot](screenshot.png)
+![Registration Form Screenshot](./screenshot.png)
