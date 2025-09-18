@@ -4,7 +4,7 @@ This project is a simple **Registration Form** created as part of a class perfor
 The form is designed with **HTML & CSS**, focusing on proper use of input types, form validation basics, and styling for a clean user interface.  
 
 ## 🚀 Live Demo  
-🔗 [Click here to view live site](https://su-class-performance-1.netlify.app/)  
+🔗 [Click here to view live site](https://su-class-performance-1.vercel.app/)  
 
 ## 📂 Repository  
 🔗 [GitHub Repository](https://github.com/su31f2-sudo/su-class-performance-1.git)  
