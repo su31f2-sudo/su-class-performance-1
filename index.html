@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+    
+    <div style="background-color: rgba(255, 255, 255, 0.9); border-radius: 15px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); width: 90%; max-width: 600px; padding: 30px; box-sizing: border-box;">
+        <h2 style="text-align: center; color: #333; margin-bottom: 30px; font-size: 28px;">
+            <i class="fas fa-user-plus" style="margin-right: 10px;"></i>Create Your Account
+        </h2>
+        
+        <form>
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 20px;">
+                <div style="flex-basis: 48%; margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">First Name</label>
+                    <div style="position: relative;">
+                        <i class="fas fa-user" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #6a11cb;"></i>
+                        <input type="text" placeholder="Enter your first name" required style="width: 100%; padding: 12px 12px 12px 45px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; transition: border-color 0.3s; box-sizing: border-box;">
+                    </div>
+                </div>
+                
+                <div style="flex-basis: 48%; margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Last Name</label>
+                    <div style="position: relative;">
+                        <i class="fas fa-user" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #6a11cb;"></i>
+                        <input type="text" placeholder="Enter your last name" required style="width: 100%; padding: 12px 12px 12px 45px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; transition: border-color 0.3s; box-sizing: border-box;">
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Email Address</label>
+                <div style="position: relative;">
+                    <i class="fas fa-envelope" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #6a11cb;"></i>
+                    <input type="email" placeholder="Enter your email" required style="width: 100%; padding: 12px 12px 12px 45px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; transition: border-color 0.3s; box-sizing: border-box;">
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Date of Birth</label>
+                <div style="position: relative;">
+                    <i class="fas fa-calendar-alt" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #6a11cb;"></i>
+                    <input type="date" required style="width: 100%; padding: 12px 12px 12px 45px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; transition: border-color 0.3s; box-sizing: border-box;">
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Phone Number</label>
+                <div style="position: relative;">
+                    <i class="fas fa-phone" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #6a11cb;"></i>
+                    <input type="tel" placeholder="Enter your phone number" required style="width: 100%; padding: 12px 12px 12px 45px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; transition: border-color 0.3s; box-sizing: border-box;">
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Password</label>
+                <div style="position: relative;">
+                    <i class="fas fa-lock" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #6a11cb;"></i>
+                    <input type="password" placeholder="Create a strong password" required style="width: 100%; padding: 12px 12px 12px 45px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; transition: border-color 0.3s; box-sizing: border-box;">
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Gender</label>
+                <div style="display: flex; gap: 20px;">
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="radio" name="gender" value="male" style="margin-right: 8px;">
+                        <i class="fas fa-male" style="margin-right: 5px; color: #2575fc;"></i> Male
+                    </label>
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="radio" name="gender" value="female" style="margin-right: 8px;">
+                        <i class="fas fa-female" style="margin-right: 5px; color: #e91e63;"></i> Female
+                    </label>
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #444;">Select District</label>
+                <div style="position: relative;">
+                    <i class="fas fa-map-marker-alt" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #6a11cb;"></i>
+                    <select required style="width: 100%; padding: 12px 12px 12px 45px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; appearance: none; background-color: white; transition: border-color 0.3s; box-sizing: border-box;">
+                        <option value="" disabled selected>Select your district</option>
+                        <option value="dhaka">Dhaka</option>
+                        <option value="narayanganj">Narayanganj</option>
+                        <option value="chattogram">Chattogram</option>
+                        <option value="sylhet">Sylhet</option>
+                        <option value="khulna">Khulna</option>
+                        <option value="barishal">Barishal</option>
+                        <option value="rajshahi">Rajshahi</option>
+                        <option value="rangpur">Rangpur</option>
+                        <option value="mymensingh">Mymensingh</option>
+                    </select>
+                    <i class="fas fa-chevron-down" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: #6a11cb;"></i>
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <label style="display: flex; align-items: flex-start; cursor: pointer;">
+                    <input type="checkbox" required style="margin-right: 10px; margin-top: 3px;">
+                    <span style="font-size: 15px;">I agree with the <a href="#" style="color: #2575fc; text-decoration: none; font-weight: 600;">Terms and Conditions</a></span>
+                </label>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <label style="display: flex; align-items: flex-start; cursor: pointer;">
+                    <input type="checkbox" style="margin-right: 10px; margin-top: 3px;">
+                    <span style="font-size: 15px;">I want to receive the newsletter</span>
+                </label>
+            </div>
+            
+            <button type="submit" style="width: 100%; padding: 15px; background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); color: white; border: none; border-radius: 8px; font-size: 18px; font-weight: 600; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s;">
+                <i class="fas fa-user-plus" style="margin-right: 10px;"></i>Register Now
+            </button>
+            
+            <p style="text-align: center; margin-top: 20px; color: #666;">
+                Already have an account? <a href="#" style="color: #2575fc; text-decoration: none; font-weight: 600;">Sign In</a>
+            </p>
+        </form>
+    </div>
+
+    <script>
+        // Add focus effects to form elements
+        document.querySelectorAll('input, select').forEach(element => {
+            // Add focus effect
+            element.addEventListener('focus', function() {
+                this.style.borderColor = '#6a11cb';
+                this.style.boxShadow = '0 0 8px rgba(106, 17, 203, 0.3)';
+            });
+            
+            // Remove focus effect
+            element.addEventListener('blur', function() {
+                this.style.borderColor = '#ddd';
+                this.style.boxShadow = 'none';
+            });
+        });
+        
+        // Add hover effect to the register button
+        const registerButton = document.querySelector('button');
+        registerButton.addEventListener('mouseover', function() {
+            this.style.transform = 'translateY(-2px)';
+            this.style.boxShadow = '0 6px 12px rgba(0, 0, 0, 0.2)';
+        });
+        
+        registerButton.addEventListener('mouseout', function() {
+            this.style.transform = 'translateY(0)';
+            this.style.boxShadow = 'none';
+        });
+    </script>
+</body>
+</html>
