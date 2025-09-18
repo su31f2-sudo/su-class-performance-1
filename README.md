@@ -36,7 +36,7 @@ The form includes the following fields:
 
 ---
 
-## 📸 Screenshot (Optional)  
-> You can add a screenshot of your form UI here.  
+## 📸 Screenshot  
+
 ```markdown
-![Registration Form Screenshot](./screenshot.png)
+![Registration Form Screenshot](screenshot.png)
